@@ -5,7 +5,7 @@ import ExUseReducerHook from "./components/ExUseReducerHook";
 import ExUseContext from "./components/ExUseContext";
 import ExUseMemo from "./components/ExUseMemo";
 import ExReactCompile from "./components/ExReactCompile";
-
+import ExUseCallback from "./components/ExUseCallback";
 export default function week3() {
   return (
     <div>
@@ -14,15 +14,11 @@ export default function week3() {
       </p>
       <MyButton title="I'm a disabled button" disabled={true} />
       <MyButton title="I'm a button" disabled={false} />
-      <br />
       <ExUseStateHook />
-      <br />
       <ExUseReducerHook />
-      <br />
       <ExUseContext />
-      <br />
       <ExUseMemo />
-      <br />
+      <ExUseCallback />
       <ExReactCompile />
     </div>
   );
