@@ -1,8 +1,11 @@
 import FilterableProductTable from './components/FilterableProductTable';
 import './styles/styles.css';
+
 export default function Week2() {
   return (
     <div>
+          <h1 className="text-4xl font-bold underline">Hello World</h1>
+
       <FilterableProductTable products={PRODUCTS} />
     </div>
   );
