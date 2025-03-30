@@ -15,7 +15,9 @@ export default function ExUseStateHook() {
   };
   return (
     <div>
-      <h1>useState Hook</h1>
+      <p>
+        <b>useState Hook</b>
+      </p>
       <button onClick={handleClick}>
         {requestState.status === "loading" ? "Loading..." : "Load data"}
       </button>

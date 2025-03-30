@@ -1,16 +1,29 @@
 "use client";
 import MyButton from "./components/MyButton";
 import ExUseStateHook from "./components/ExUseStateHook";
+import ExUseReducerHook from "./components/ExUseReducerHook";
+import ExUseContext from "./components/ExUseContext";
+import ExUseMemo from "./components/ExUseMemo";
+import ExReactCompile from "./components/ExReactCompile";
 
 export default function week3() {
   return (
     <div>
-      <h1>React Component Types</h1>
+      <p>
+        <b>React Component Types</b>
+      </p>
       <MyButton title="I'm a disabled button" disabled={true} />
-      <br />
       <MyButton title="I'm a button" disabled={false} />
       <br />
       <ExUseStateHook />
+      <br />
+      <ExUseReducerHook />
+      <br />
+      <ExUseContext />
+      <br />
+      <ExUseMemo />
+      <br />
+      <ExReactCompile />
     </div>
   );
 }
