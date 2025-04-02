@@ -24,7 +24,7 @@ function stateReducer(state: State, action: CounterAction): State {
 const ExUseReducerHook = () => {
   //useReducer은 stateReducer 함수와 initialState를 인자로 받아서 dispatch 함수를 반환
   //state는 현재 상태, dispatch는 상태를 변경하는 액션을 전달하는 함수
-  const [state, dispatch] = useReducer(stateReducer, initialState);
+  const [state, dispatch] = useReducer(stateReducer, initialState); //useReducer<State> 명시적으로 준 경우
   const addFive = () => dispatch({ type: "setCount", value: state.count + 5 });
   const reset = () => dispatch({ type: "reset" });
 
