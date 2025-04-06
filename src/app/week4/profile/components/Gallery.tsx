@@ -5,8 +5,6 @@ export default function Gallery() {
     <>
       <h1>Amazing Scientist</h1>
       <Profile />
-      <Profile />
-      <Profile />
     </>
   );
 }
