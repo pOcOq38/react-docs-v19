@@ -1,5 +1,6 @@
 "use client";
 
+import TodoList from "./components/TodoList";
 import ArtworkForm from "./components/ArtworkForm";
 import BucketList from "./components/BucketList";
 import Counter from "./components/Counter";
@@ -9,6 +10,7 @@ import MovingDot from "./components/MovingDot";
 import PersonForm from "./components/PersonForm";
 import RequestTracker from "./components/RequestTracker";
 import SculptorList from "./components/SculptorList";
+import ShoppingCart from "./components/ShoppingCart";
 import TrafficLight from "./components/TrafficLight";
 
 export default function week7() {
@@ -29,6 +31,9 @@ export default function week7() {
       <h2>배열 State 업데이트 하기</h2>
       <SculptorList />
       <BucketList />
+      <h2>챌린지 도전하기</h2>
+      <ShoppingCart />
+      <TodoList />
     </>
   );
 }
